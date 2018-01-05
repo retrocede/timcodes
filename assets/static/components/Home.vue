@@ -1,6 +1,6 @@
 <template>
   <div id="content">
-    Here's your content
+    Something cool coming soon...
   </div>
 </template>
 
