@@ -1,6 +1,6 @@
 cd $phoenix_dir
 cd assets
-yarn run build
+yarn run deploy
 cd ..
 
 mix "${phoenix_ex}.digest"
