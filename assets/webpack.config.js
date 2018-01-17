@@ -53,7 +53,7 @@ module.exports = {
   },
   plugins: [
     new ExtractTextPlugin("../css/app.css"),
-    new CopyWebpackPlugin([{from: "./static/assets", to: "../"}])
+    new CopyWebpackPlugin([{from: "./static", to: "../"}])
   ]
 
 }
