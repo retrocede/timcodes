@@ -13,7 +13,7 @@ defmodule TimcodesWeb.Router do
     plug :accepts, ["json"]
   end
 
-  scope "/", TimcodesWeb do
+  scope "/*path", TimcodesWeb do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index

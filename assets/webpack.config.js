@@ -4,7 +4,7 @@ var utils = require('./utils');
 var path = require('path');
 
 module.exports = {
-  entry: "./static/js/app.js",
+  entry: "./main.js",
   output: {
     path: path.resolve("../priv/static/js"),
     filename: "app.js"
