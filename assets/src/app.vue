@@ -1,8 +1,10 @@
-<style lang="scss" scoped>
-    .v-app {
+<style scoped>
+    div {
         border: 2px solid red;
+    }
 
-        h3 { color: blue; }
+    h3 { 
+        color: blue;
     }
 </style>
 

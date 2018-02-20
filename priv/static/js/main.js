@@ -72,7 +72,7 @@ require = (function (modules, cache, entry) {
 
   // Override the current require with this new one
   return newRequire;
-})({11:[function(require,module,exports) {
+})({13:[function(require,module,exports) {
 var global = (1,eval)("this");
 "use strict";
 
@@ -7270,7 +7270,7 @@ Vue$3.nextTick(function () {
 /*  */
 
 exports.default = Vue$3;
-},{}],12:[function(require,module,exports) {
+},{}],17:[function(require,module,exports) {
 var Vue // late bind
 var version
 var map = (window.__VUE_HOT_MAP__ = Object.create(null))
@@ -7500,7 +7500,7 @@ exports.reload = tryWrap(function (id, options) {
   })
 })
 
-},{}],3:[function(require,module,exports) {
+},{}],5:[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -7525,7 +7525,7 @@ if (module.hot) {
     require("vue-hot-reload-api").rerender("data-v-c2abe908", module.exports.default);
   }
 }
-},{"vue-hot-reload-api":12}],4:[function(require,module,exports) {
+},{"vue-hot-reload-api":17}],6:[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -7549,7 +7549,7 @@ Object.defineProperty(exports, "__esModule", {
 //
 
 exports.default = {};
-},{}],10:[function(require,module,exports) {
+},{}],15:[function(require,module,exports) {
 var bundleURL = null;
 function getBundleURLCached() {
   if (!bundleURL) {
@@ -7580,7 +7580,7 @@ function getBaseURL(url) {
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
 
-},{}],9:[function(require,module,exports) {
+},{}],11:[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -7612,13 +7612,13 @@ function reloadCSS() {
 
 module.exports = reloadCSS;
 
-},{"./bundle-url":10}],18:[function(require,module,exports) {
+},{"./bundle-url":15}],20:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":9}],13:[function(require,module,exports) {
+},{"_css_loader":11}],18:[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -7704,7 +7704,7 @@ function normalizeComponent(rawScriptExports, compiledTemplate, injectStyles, sc
     options: options
   };
 }
-},{}],2:[function(require,module,exports) {
+},{}],3:[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -7781,7 +7781,7 @@ if (module.hot) {
 }
 
 exports.default = Component.options;
-},{"/home/tim/projects/timcodes/assets/src/app.vue__type=template.js":3,"/home/tim/projects/timcodes/assets/src/app.vue__type=script.js":4,"/home/tim/projects/timcodes/assets/src/app.vue__type=style&index=0.css":18,"vue-component-compiler/src/runtime/normalize-component":13,"vue-hot-reload-api":12,"vue":11}],1:[function(require,module,exports) {
+},{"/home/tim/projects/timcodes/assets/src/app.vue__type=template.js":5,"/home/tim/projects/timcodes/assets/src/app.vue__type=script.js":6,"/home/tim/projects/timcodes/assets/src/app.vue__type=style&index=0.css":20,"vue-component-compiler/src/runtime/normalize-component":18,"vue-hot-reload-api":17,"vue":13}],1:[function(require,module,exports) {
 "use strict";
 
 var _vue = require("vue");
@@ -7798,7 +7798,7 @@ new _vue2.default({
   el: '#app',
   render: h => h(_app2.default)
 });
-},{"vue":11,"./app.vue":2}],14:[function(require,module,exports) {
+},{"vue":13,"./app.vue":3}],19:[function(require,module,exports) {
 
 var global = (1, eval)('this');
 var OldModule = module.bundle.Module;
@@ -7818,7 +7818,7 @@ module.bundle.Module = Module;
 
 if (!module.bundle.parent && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
-  var ws = new WebSocket('ws://' + hostname + ':' + "39587" + '/');
+  var ws = new WebSocket('ws://' + hostname + ':' + "45983" + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -7919,4 +7919,4 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.require, id);
   });
 }
-},{}]},{},[14,1])
+},{}]},{},[19,1])
