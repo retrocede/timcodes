@@ -9,6 +9,7 @@
 
     <title>Hello Timcodes!</title>
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
+    <link rel="stylesheet" href="<%= static_path(@conn, "/js/app.css") %>">
   </head>
 
   <body>
@@ -27,6 +28,7 @@
 
       <main role="main">
         <%= render @view_module, @view_template, assigns %>
+        <div id="app"></div>
       </main>
 
     </div> <!-- /container -->

@@ -11,7 +11,11 @@ config :timcodes, TimcodesWeb.Endpoint,
   debug_errors: true,
   code_reloader: true,
   check_origin: false,
-  watchers: []
+  watchers: [
+    node: ["node_modules/parcel-bundler/bin/cli.js", "watch", "src/app.js", "--out-dir", "../priv/static/js",
+    cd: Path.expand("../assets", __DIR__)
+    ]
+  ]
 
 # ## SSL Support
 #
