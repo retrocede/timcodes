@@ -1,8 +1,6 @@
 cd $phoenix_dir
 cd assets
-node --version
-npm --version
-npm run deploy
+yarn run deploy
 cd ..
 
 mix "${phoenix_ex}.digest"
