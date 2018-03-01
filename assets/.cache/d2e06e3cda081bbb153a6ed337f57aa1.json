@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"_css_loader"}],"generated":{"css":"\ndiv[data-v-c2abe908] {\n    border: 2px solid red;\n}\nh3[data-v-c2abe908] { \n    color: blue;\n}\n","js":"\n        var reloadCSS = require('_css_loader');\n        module.hot.dispose(reloadCSS);\n        module.hot.accept(reloadCSS);\n      "},"hash":"6dc7313df688bc33cd91aadee5ee7d9e","cacheData":{}}
